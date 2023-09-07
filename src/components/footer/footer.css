@@ -1,10 +1,11 @@
-footer{
+
+.containerFooter{
     background-color:  #EAF2FD;
     display: flex;
     flex-direction: row;
 }
 .imgFooter{
-    width: 70%;
+    width: 80%;
     height: auto;
     padding: 32px;
 }
@@ -67,4 +68,27 @@ footer{
     transition-duration: .5s;
     cursor: pointer;
     
+}
+.referencias{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h5{
+    text-align: center;
+    margin: 0;
+}
+.containerLogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+ .logoRedes{
+    color: rgb(85, 84, 84);
+    width: 70%;
+   height: 70%;
+   margin: 10px 10px 0 10px;
 }

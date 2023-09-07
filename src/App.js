@@ -4,6 +4,9 @@ import Navbar from "./components/navbar/nav";
 import Footer from "./components/footer/footer";
 import Inicio from "./pages/Inicio/inicio";
 import TotalProductos from "./pages/totalProductos/totalProductos";
+import NuevoProducto from "./pages/Nuevo_Producto/nuevoProducto";
+import Login from "./pages/Login/login";
+import Producto from "./pages/Producto/producto";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,8 +14,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>        
-        <Route path="/" exact element={<Inicio />} />
-        <Route path="/totalProductos" exact element={<TotalProductos />} />
+        <Route path="/"  element={<Inicio />} />
+        <Route path="/totalProductos"  element={<TotalProductos />} />
+        <Route path="/NuevoProducto"  element={<NuevoProducto />} />
+        <Route path="/Login"  element={<Login />} />
+        <Route path="/Producto"  element={<Producto />} />
       </Routes> 
       <Footer />
     </Router>

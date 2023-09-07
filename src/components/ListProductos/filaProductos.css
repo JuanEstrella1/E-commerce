@@ -1,0 +1,14 @@
+.sectionFila{
+    display: flex;
+    flex-direction: column;
+}
+.containerCards{
+    display: flex;
+    flex-wrap:wrap;
+}
+.tituloFila{
+    font-family: raleway;
+}
+.containerFila{
+    padding: 20px 150px;
+}

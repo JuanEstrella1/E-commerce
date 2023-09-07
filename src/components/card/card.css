@@ -1,0 +1,23 @@
+
+.card{
+    width: 200px;
+    margin: 20px 0;
+}
+.tituloCard,.precioCard,.vinculoCard{
+    font-size: 15px;
+    font-family: raleway;
+    margin: 1px;
+    line-height: 1.3;
+}
+.vinculoCard{
+    text-decoration: none;
+    color:#2A7AE4;
+}
+.vinculoCard:hover{
+    text-decoration: underline;
+}
+
+.imgCard{
+    width: 90%;
+    height: auto;
+}
