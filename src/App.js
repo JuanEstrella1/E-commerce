@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <Routes>        
         <Route path="/"  element={<Inicio />} />
-        <Route path="/totalProductos"  element={<TotalProductos />} />
+        <Route path="/totalProductos"  element={<TotalProductos  url={"/productos"}/>} />
         <Route path="/NuevoProducto"  element={<NuevoProducto />} />
         <Route path="/Login"  element={<Login />} />
-        <Route path="/Producto"  element={<Producto />} />
+        <Route path={`/productos/:id`}  element={<Producto />} />
       </Routes> 
       <Footer />
     </Router>

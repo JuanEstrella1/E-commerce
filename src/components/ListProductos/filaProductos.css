@@ -1,14 +1,15 @@
 .sectionFila{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .containerCards{
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
+    
 }
 .tituloFila{
     font-family: raleway;
 }
-.containerFila{
-    padding: 20px 150px;
-}
+

@@ -2,11 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Card from "../../components/card/card";
 import Fila from "../../components/ListProductos/filaProductos";
+import { buscar } from "../../apis/apis";
 
 function Inicio() {
     return (
       <main>
-       <Link to="/Producto"> <button>ir a productos</button>
+        <Link to="/NuevoProducto"> <button>Nuevo producto</button>
+        </Link>
+        <Link to="/Login"> <button>Login</button>
+        </Link>
+        <Link to="/totalProductos"> <button>totalProductos</button>
         </Link>
         <div className="preguntas">
           <a href="/">¿Quienes Somos?</a>
@@ -17,11 +22,10 @@ function Inicio() {
           <a href="/">Anuncie aqui</a>
         </div>
 
-        <Card />
-        <Fila />
-        <Fila />
-        <Fila />
         
+        <Fila categoria={"videojuegos"} titulo={"Videojuegos"}/>
+        <Fila categoria={"consola"} titulo={"Consolas"}/>
+        <Fila categoria={"boardgame"} titulo={"Juegos de mesa"}/>
 
         
       </main>

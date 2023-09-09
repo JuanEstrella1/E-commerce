@@ -1,0 +1,11 @@
+.sectionTotalProductos{
+    display: flex;
+    justify-content: center;
+}
+.containerProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
