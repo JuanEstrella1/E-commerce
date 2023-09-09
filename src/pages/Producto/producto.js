@@ -8,8 +8,9 @@ import { useParams } from "react-router-dom";
 function Producto() {
   const [productos, setProductos] = useState({});
 
-  const { precioProducto, nombreProducto, urlImagen, descripcion} = productos;
+  const { precioProducto, nombreProducto, urlImagen, descripcion, categorias} = productos;
   let { id } = useParams();
+  console.log(categorias)
   
   
   useEffect(() => {
@@ -43,7 +44,7 @@ function Producto() {
           </div>
         </div>
       </div>
-      <FilaProductos />
+      <FilaProductos categoria={categorias} titulo={"Productos similares"}/>
     </section>
   );
 }

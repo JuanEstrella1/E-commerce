@@ -12,7 +12,7 @@ section{
     font-size: 2rem;
     font-family: Raleway;
 }
-#fullWidth{
+#fullWidth, #demo-simple-select{
     background-color: white;
 }
 #outlined-multiline-static{

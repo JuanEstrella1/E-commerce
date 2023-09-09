@@ -1,160 +1,174 @@
 {
-    "productos": [
-        {
-            "id": 1,
-            "nombreProducto": "The island",
-            "categorias": "boardgame",
-            "urlImagen": "https://http2.mlstatic.com/D_NQ_NP_853113-MCO46284545837_062021-O.webp",
-            "precioProducto": "184.278",
-            "descripcion": "The Island es un Juego de mesa entre 2 - 5 jugadores, donde el proposito es salvar a tu tripulación de una isla donde acaban de encallar, pero cuidado!. Existen diversas criaturas que pueden frustar tus intentos por llegar a tierra firme y hundir a tu tripulación."
-        },
-        {
-            "id": 2,
-            "nombreProducto": "Catan",
-            "categorias": "boardgame",
-            "urlImagen": "https://m.media-amazon.com/images/I/81+okm4IpfL.jpg",
-            "precioProducto": "239.900",
-            "descripcion": "El gran clásico de los juegos de mesa. Es un juego de pura estrategia, gestión de recursos, azar y con mucha diversión y piques. Fácil de aprender, dinámico y apto para adolescentes y adultos. Cada partida es totalmente distinta."
-        },
-        {
-            "id": 3,
-            "nombreProducto": "Castle Party",
-            "categorias": "boardgame",
-            "urlImagen": "https://tokenbgc.com/wp-content/uploads/2022/01/CastleParty.jpg",
-            "precioProducto": "86.900",
-            "descripcion": "Este es un juego de “flip and write”, es decir, sacaremos cartas y escribiremos cosas en una pizarra. El jugador activo revelará una carta con una forma polinómica y todo el mundo colocará sobre la mesa una carta de monstruo siguiendo la forma propuesta. Finalmente, y dependiendo del lado de la mesa desde el que estén viendo la carta de forma, los jugadores dibujarán los monstruos en sus tableros personales intentando agruparlos por familias con el objetivo de obtener la mejor puntuación."
-        },
-        {
-            "id": 4,
-            "nombreProducto": "Fantasma Blitz Dados",
-            "categorias": "boardgame",
-            "urlImagen": "https://tokenbgc.com/wp-content/uploads/2022/07/fantasmaBlitzDados.jpeg",
-            "precioProducto": "110.900",
-            "descripcion": "El clásico juego infantil Fastasma Blitz cambia las cartas… ¡Por dados! De 2 a 8 jugadores compiten en un juego de rapidez y reflejos en que debemos ser el primero en tomar el objeto que nos indique el resultado de la tirada de dados. Un juego para los que piensan rápido y adoran lanzar dados. ¡La suerte está echada!"
-        },
-        {
-            "id": 5,
-            "nombreProducto": "Laberinto Mágico",
-            "categorias": "boardgame",
-            "urlImagen": "https://tokenbgc.com/wp-content/uploads/2020/01/ElLaberintoMagico.jpg",
-            "precioProducto": "199.900",
-            "descripcion": "¡Pum! ¡Ay! El pequeño mago se frota los ojos con sorpresa en el Laberinto Mágico. ¿Hay un muro delante de él? Los aprendices de mago exploran con curiosidad el laberinto mágico. Hoy tienen una tarea importante que cumplir: ¡buscar los símbolos mágicos!. El laberinto está formado por paredes invisibles que los pequeños no pueden atravesar. Por ello, para moverse deberán tener una buena memoria que les permita recordar cuáles son los caminos por los que se puede pasar. Cada jugador intenta vencer al laberinto con su peón y ser el primero en conseguir cinco símbolos mágicos."
-        },
-        {
-            "id": 6,
-            "nombreProducto": "Takenoko",
-            "categorias": "boardgame",
-            "urlImagen": "https://tokenbgc.com/wp-content/uploads/2021/01/Takenoko.jpg",
-            "precioProducto": "247.900",
-            "descripcion": "El Emperador japones a decidido dejar a cargo de la alimentación del panda a los miembros más fieles de su corte (los jugadores), ellos deberán llevar a cabo la más sagrada tarea de alimentar al panda, mediante el cultivo de jardines de bambú, estos jardines pueden ser de tres clases: verde, amarillo y rosa. El ganador de la partida sera el jugador que consiga hacer crecer la mayor cantidad de bambú y que administre mejor sus parcelas además de saciar el apetito del panda."
-        },
-        {
-            "id": 7,
-            "nombreProducto": "Juego PS4 Call Of Duty Vanguard",
-            "categorias": "videojuegos",
-            "urlImagen": "https://www.alkosto.com/medias/047875102729-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxNTIxNjd8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGpOQzlvTWpNdk1URXlOemsxTnpnek5qVTVPREl1YW5Cbnw3MGE4ZTFiOGUwZDFlNjFhZjAxMGJjZmY4OWU0ZGE4MmY3ZGI2NDIxZjI0ZDUzMWNlMGFiMDk3OGY1MzE5Njhk",
-            "precioProducto": "89.900",
-            "descripcion": "Rebélate en cada frente: combate sobre el Pacífico, defiende Stalingrado con la precisión de un francotirador, lánzate desde el aire en Francia o atraviesa fuerzas en el norte de África. La franquicia de Call of Duty regresa con Call of Duty: Vanguard, desarrollado por Sledgehammer Games. Los jugadores se sumergirán en el combate visceral de escala global de la Segunda Guerra Mundial."
-        },
-        {
-            "id": 8,
-            "nombreProducto": "Juego PS5 Gran Turismo 7",
-            "categorias": "videojuegos",
-            "urlImagen": "https://www.alkosto.com/medias/711719541400-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyNTg3MDF8aW1hZ2UvanBlZ3xhR1F6TDJoaVppOHhNek0yTVRZNE16a3lNamszTkM4M01URTNNVGsxTkRFME1EQmZNREF4WHpjMU1GZDROelV3U0F8ZjkzZDhhOGNlMWM4NzIxMzEwZmJmZjVlMTk0ZGU3ZDIxNDI5OTIxM2M5ZWVmYmIzZTk4M2MyN2E5OWM0ODlkNw",
-            "precioProducto": "429.900",
-            "descripcion": "Gran Turismo 7 se basa en 25 años de experiencia para ofrecerte las mejores características de la historia de la franquicia. Ya seas un corredor, coleccionista, sintonizador, diseñador de librea o fotógrafo competitivo o casual, encuentra tu línea con una colección asombrosa de modos de juego, incluidos los favoritos de los fanáticos como GT Campaign, Arcade y Driving School. Con la reintroducción del legendario modo de simulación GT, compre, afine, compita y venda su camino a través de una gratificante campaña en solitario mientras desbloquea nuevos autos y desafíos"
-        },
-        {
-            "id": 9,
-            "nombreProducto": "Juego PS5 Spider-Man: Miles Morales",
-            "categorias": "videojuegos",
-            "urlImagen": "https://www.alkosto.com/medias/711719542285-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyMDIwMjV8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGhZaTlvTm1Vdk9UazVNRFF4TVRjME56TTFPQzVxY0djfDBhMGNjNjlmYzdiNjc3YzAwNDAwODVmNTNkMGVmZjcyZmM3ODU4ODM4MmE1MzJkZDQ0NjE5MmJjNmNhMWIzZDY",
-            "precioProducto": "319.900",
-            "descripcion": "Sé mejor. Sé quién eres. Experimenta el ascenso de Miles Morales y sé testigo de cómo el nuevo héroe domina nuevos poderes increíbles y explosivos para convertirse en su propia versión de Spider-Man. En la última aventura del universo de Spider-Man de Marvel, el adolescente Miles Morales intenta ajustarse a su nuevo hogar mientras que sigue los pasos de su mentor, Peter Parker, para convertirse en el nuevo Spider-Man."
-        },
-        {
-            "id": 10,
-            "nombreProducto": "Videojuego PS4 PlayStation Hits: God Of War ",
-            "categorias": "videojuegos",
-            "urlImagen": "https://www.alkosto.com/medias/711719534129-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyODYxMjV8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzBNeTlvWXpRdk1URTFPRFkxTWpBd01qTXdOekF1YW5CbnxhNDg5ODBmY2U4NjYwYmI5Y2QyYjY0MzBlYmIyOTEzMTZiYWJiMjE4ZWRlZWViN2MzNTI5NTQ2MWUyOGQ2NWQw",
-            "precioProducto": "119.900",
-            "descripcion": "Nuevo comienzo para uno de los iconos más importantes dentro de la industria de los videojuegos.| En esta secuela, Kratos vive como un hombre lejos de la sombra de los dioses y debe adaptarse a tierras desconocidas, amenazas inesperadas y una segunda oportunidad para oficiar de padre. Ahora, junto a su joven hijo Atreus, se adentra en la salvaje tierra nórdica, donde luchan para completar una misión profundamente personal. Ya va siendo hora que entierres tus miedos, ¡adquiere el juego ahora!"
-        },
-        {
-            "id": 11,
-            "nombreProducto": "Juego PS4 Red Dead Redemption",
-            "categorias": "videojuegos",
-            "urlImagen": "https://www.alkosto.com/medias/710425478949-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyODY4MzN8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3haQzlvTmpBdk9URXhPREkzTWprM09EazNOQzVxY0djfGQwZWNhOWU3YzFmOTU5OTAxMDM2YjZiZGU0ZTJiMmY4NTgxZDNhYTc5NTllMDkyOWVlNmZkODExYTg0MWIxZDk",
-            "precioProducto": "89.900",
-            "descripcion": "¡Es hora de volver al Viejo Oeste! Ponte en los zapatos de Arthur Morgan, un miembro de la banda de Dutch van der Linde. Descubre lo que pasó antes de los eventos de Red Dead Redemption mientras exploras un amplio mundo abierto y tratas de sobrevivir junto con tus compañeros en una cruel tierra sin reglas."
-        },
-        {
-            "id": 12,
-            "nombreProducto": "Juego PLAYSTATION 4 Grand Theft Auto V PE",
-            "categorias": "videojuegos",
-            "urlImagen": "https://www.alkosto.com/medias/710425570360-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyNzgyNDJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3hNeTlvT1Rndk1UTXpNREUwTVRNM05EQTFOelF1YW5Cbnw0ZTA3YTg2NmE4ZGJkYmY2NjAxOWZkNjM3NzRkYmIxMDFmNGI2ZGI1NTEzOTQyODFmNWM1MWU5ZWU3Y2JjNDE1",
-            "precioProducto": "89.900",
-            "descripcion": "Los Santos, una extensa y soleada metrópolis llena de gurús de autoayuda, aspirantes a estrellas y famosos en decadencia, en su día la envidia del mundo occidental, lucha ahora por mantenerse a flote en una era de incertidumbre económica y 'realities' baratos.Los sellos de esta rompedora saga están presentes en todo el juego, desde una increíble atención al detalle hasta el oscuro sentido del humor de Grand Theft Auto sobre la cultura moderna. Además, se ha dado un nuevo y más ambicioso enfoque al multijugador de mundo abierto."
-        },
-        {
-            "id": 13,
-            "nombreProducto": "Consola ROG Ally Digital 16GB RAM 512GB SSD Blanco",
-            "categorias": "consola",
-            "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-4711387225073-001.jpg?context=bWFzdGVyfGltYWdlc3wxOTAwNjN8aW1hZ2UvanBlZ3xhREUwTDJnd01DOHhNemsxTmpFME56RTRNelkwTmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TkRjeE1UTTROekl5TlRBM00xOHdNREV1YW5Cbnw5ZDEyN2VkM2EwOGQxOGVhN2VlMzE5YTMxOGU3MjI1ZjNkYzdjNmI3NjM2YTIyZDIxMTg1MDE4MDk4Y2FmMDEx",
-            "precioProducto": "3.799.000",
-            "descripcion": "Sumérgete de lleno con la ROG ALLY en tus juegos AAA o indie favoritos y deja que el tiempo vuele gracias a una amplia pantalla de 7´ Full HD de 120Hz y una ergonomía increíblemente cómoda para jugar en red o incluso para jugar solo. Con Armoury Crate, ordena y ejecuta sin problema todos tus videojuegos desde un solo lugar, sin importar dónde estén instalados Steam, Xbox Game Pass, Epic Games, GOG y más. El procesador Ryzen Z1 Extreme de AMD junto con gráficos RDNA3 potencian esta increíble consola gaming. Además, admite carga rápida, cargar de 0 al 50 % en solo 30 minutos. ¡Cómprala ya!"
-        },
-        {
-            "id": 14,
-            "nombreProducto": "Consola PS4 1 TB + 1 Control Inalambrico + Juego God Of War Ragnarok",
-            "categorias": "consola",
-            "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-711719560418-001.jpg?context=bWFzdGVyfGltYWdlc3w0Mjc0NDR8aW1hZ2UvanBlZ3xhRFl3TDJnMk15OHhNelUyT1RnNU5qQTROelU0TWk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TnpFeE56RTVOVFl3TkRFNFh6QXdNUzVxY0djfGJkNjM5ZGQ2ZjBiYjBlODcyOWI2MTZmOTIzOWUxMDc1MDhkMTZjMWQzMzJhYmY0YzY2YTE1YjdhYWUyNzlhNjk",
-            "precioProducto": "2.499.900",
-            "descripcion": "¡Juegos increíbles, entrenamiento sin fin!. La consola PS4 ofrece una potenica de juego impresionante, entretenimiento increíble y tecnología de HRD intenso que tiene un disco duro de 1TB para que disfrutes los mejores juegos, tu música favorita y mucho más. Incluye Juego PS4 God Of War Ragnarok. Santa Monica Studio trae la secuela del aclamado God of War para PS4 (2018). Fimbulvetr ya está en camino. Kratos y Atreus deben viajar a cada uno de los nueve reinos en búsqueda de respuestas, mientras que las fuerzas asgardianas se preparan para una batalla profetizada que terminará con el mundo. Lleva la tuya ahora"
-        },
-        {
-            "id": 15,
-            "nombreProducto": "Consola NINTENDO SWITCH con Joy Con Neon/Blue",
-            "categorias": "consola",
-            "urlImagen": "https://www.alkosto.com/medias/045496882174-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxNDQ2MDR8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzVNQzlvT1Rjdk1UQTVPREU1TkRZMU1qTTJOemd1YW5Cbnw2NDA1OWViYjk0ZTc5YWFlZTliZDkyMWU4MjhmZjhkZTUzMGMxYmNhMjlmOGVhN2I0NjQyOThlMzNiY2YyYzIy",
-            "precioProducto": "1.699.000",
-            "descripcion": "La consola NINTENDO Switch Neon es una maravilla del entretenimiento en el mundo de los videojuegos. Esta consola híbrida combina la portabilidad de una consola de mano con la potencia de una consola de sobremesa, permitiéndote jugar en casa o llevar la diversión contigo dondequiera que vayas. Su diseño modular y versátil te ofrece múltiples formas de jugar: úsala en modo televisor con la base de carga, conviértela en una consola de mano en segundos o disfruta de la experiencia compartida en modo sobremesa con los mandos desmontables. ¡Compra la tuya aquí!"
-        },
-        {
-            "id": 16,
-            "nombreProducto": "Consola PS5 Estándar 825GB + 1 Control Dualsense",
-            "categorias": "consola",
-            "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-711719556220-001.jpg?context=bWFzdGVyfGltYWdlc3w5ODkzMHxpbWFnZS9qcGVnfGFEWXdMMmc0WWk4eE16VXdOVGN5TnpnNE9UUXpPQzgzTlRCWGVEYzFNRWhmYldGemRHVnlMMmh2ZEdadmJHUmxjaTkwY21GdWMyWmxjaTlwYm1OdmJXbHVaeTlrWlhCdmMybDBMMmg1WW5KcGN5MXBiblJsY21aaFkyVnpMMGxPTDIxbFpHbGhMM0J5YjJSMVkzUXZOekV4TnpFNU5UVTJNakl3WHpBd01TNXFjR2N8Njk0OTBjNTdjY2Y1MzkzNmE0ZDA5YWViNmRhZWQ1Nzk0MmZhYmM1NDEwNDI4ZTg0NDNmZWI2YjJmYzU1NDMyYQ",
-            "precioProducto": "2.899.900",
-            "descripcion": "La consola PS5™ hace posibles nuevas formas de juego que jamás habías imaginado. Experimenta una velocidad sorprendente con una SSD de velocidad ultrarrápida, una inmersión más profunda con soporte para respuesta háptica además de una generación completamente nueva de juegos de PlayStation®. Velocidad sorprendente: Disfruta de la potencia de una CPU, una GPU y una SSD personalizadas con E/S integradas que redefinirán lo que una consola PlayStation puede hacer."
-        },
-        {
-            "id": 17,
-            "encale":"Consola-XBOX-Series-S-512-GB+1-Control-Inalámbrico",
-            "nombreProducto": "Consola XBOX Series S 512 GB + 1 Control Inalámbrico",
-            "categorias": "consola",
-            "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-889842651348-001.jpg?context=bWFzdGVyfGltYWdlc3w1NDI4OXxpbWFnZS9qcGVnfGFESmlMMmd5T0M4eE16YzBNekV6Tmpjd01qUTVOQzgzTlRCWGVEYzFNRWhmYldGemRHVnlMMmh2ZEdadmJHUmxjaTkwY21GdWMyWmxjaTlwYm1OdmJXbHVaeTlrWlhCdmMybDBMMmg1WW5KcGN5MXBiblJsY21aaFkyVnpMMGxPTDIxbFpHbGhMM0J5YjJSMVkzUXZPRGc1T0RReU5qVXhNelE0WHpBd01TNXFjR2N8MWRmMTM3NjlkZmE2ZDM3MzEwZTMxNDJhNWY4ZDc0MzRmNGFiMDQ5Y2U2YjVlMDg3MDlmZWU5ZmIzODljMGYyYg",
-            "precioProducto": "1.649.900",
-            "descripcion": "Solo digital , Todo de nueva generación: Pásate a lo digital con la Xbox Series S y crea una biblioteca de juegos digitales. Tus juegos, partidas guardadas y copias de seguridad están a salvo en la nube. Además, disfruta de la capacidad de reservar y preinstalar los juegos disponibles próximamente para que puedas jugar a ellos en el momento de su lanzamiento."
-        },
-        {
-            "id": 18,
-            "encale":"Consola-NINTENDO-SWITCH-Modelo-OLED-con-Joy-Con-Blanco-Negro",
-            "nombreProducto": "Consola NINTENDO SWITCH Modelo OLED con Joy-Con Blanco|Negro",
-            "categorias": "consola",
-            "urlImagen": "https://www.alkosto.com/medias/045496883386-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxMzUwMzR8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzBZUzlvWXpjdk1URXlNRGd4TnpjMU5Ea3pOREl1YW5CbnwwZGNiZTNiODU2YjI5NWM0NjE5MWMxOGQ5Yzg2ZjdlNDc5N2Y4NmRiZDQ3YTI3MDYyNTFkMTcwMWVkZjU1MWEz",
-            "precioProducto": "1.999.000",
-            "descripcion": "Libérate de tu sofá con esta Consola de Nintendo Switch OLED Blanco y juega en casa en el televisor o mientras viajas.Cuenta con una pantalla táctil OLED para formas intuitivas de jugar cuando estás en modo portátil y puedes conectarte a tu WiFi para competir en línea. Además,los controles Joy-Con incluidos se pueden usar juntos para experiencias intensas para un solo jugador,o puedes entregar uno a un amigo para batallas épicas multijugador."
-        }
-    ],
-    "usuarios": [
-        {
-            "id": 1,
-            "body": "Comment 1"
-        },
-        {
-            "id": 2,
-            "body": "Comment 2"
-        }
-    ]
+  "productos": [
+    {
+      "id": 1,
+      "nombreProducto": "The island",
+      "categorias": "boardgame",
+      "urlImagen": "https://http2.mlstatic.com/D_NQ_NP_853113-MCO46284545837_062021-O.webp",
+      "precioProducto": "184.278",
+      "descripcion": "The Island es un Juego de mesa entre 2 - 5 jugadores, donde el proposito es salvar a tu tripulación de una isla donde acaban de encallar, pero cuidado!. Existen diversas criaturas que pueden frustar tus intentos por llegar a tierra firme y hundir a tu tripulación."
+    },
+    {
+      "id": 2,
+      "nombreProducto": "Catan",
+      "categorias": "boardgame",
+      "urlImagen": "https://m.media-amazon.com/images/I/81+okm4IpfL.jpg",
+      "precioProducto": "239.900",
+      "descripcion": "El gran clásico de los juegos de mesa. Es un juego de pura estrategia, gestión de recursos, azar y con mucha diversión y piques. Fácil de aprender, dinámico y apto para adolescentes y adultos. Cada partida es totalmente distinta."
+    },
+    {
+      "id": 3,
+      "nombreProducto": "Castle Party",
+      "categorias": "boardgame",
+      "urlImagen": "https://tokenbgc.com/wp-content/uploads/2022/01/CastleParty.jpg",
+      "precioProducto": "86.900",
+      "descripcion": "Este es un juego de “flip and write”, es decir, sacaremos cartas y escribiremos cosas en una pizarra. El jugador activo revelará una carta con una forma polinómica y todo el mundo colocará sobre la mesa una carta de monstruo siguiendo la forma propuesta. Finalmente, y dependiendo del lado de la mesa desde el que estén viendo la carta de forma, los jugadores dibujarán los monstruos en sus tableros personales intentando agruparlos por familias con el objetivo de obtener la mejor puntuación."
+    },
+    {
+      "id": 4,
+      "nombreProducto": "Fantasma Blitz Dados",
+      "categorias": "boardgame",
+      "urlImagen": "https://tokenbgc.com/wp-content/uploads/2022/07/fantasmaBlitzDados.jpeg",
+      "precioProducto": "110.900",
+      "descripcion": "El clásico juego infantil Fastasma Blitz cambia las cartas… ¡Por dados! De 2 a 8 jugadores compiten en un juego de rapidez y reflejos en que debemos ser el primero en tomar el objeto que nos indique el resultado de la tirada de dados. Un juego para los que piensan rápido y adoran lanzar dados. ¡La suerte está echada!"
+    },
+    {
+      "id": 5,
+      "nombreProducto": "Laberinto Mágico",
+      "categorias": "boardgame",
+      "urlImagen": "https://tokenbgc.com/wp-content/uploads/2020/01/ElLaberintoMagico.jpg",
+      "precioProducto": "199.900",
+      "descripcion": "¡Pum! ¡Ay! El pequeño mago se frota los ojos con sorpresa en el Laberinto Mágico. ¿Hay un muro delante de él? Los aprendices de mago exploran con curiosidad el laberinto mágico. Hoy tienen una tarea importante que cumplir: ¡buscar los símbolos mágicos!. El laberinto está formado por paredes invisibles que los pequeños no pueden atravesar. Por ello, para moverse deberán tener una buena memoria que les permita recordar cuáles son los caminos por los que se puede pasar. Cada jugador intenta vencer al laberinto con su peón y ser el primero en conseguir cinco símbolos mágicos."
+    },
+    {
+      "id": 6,
+      "nombreProducto": "Takenoko",
+      "categorias": "boardgame",
+      "urlImagen": "https://tokenbgc.com/wp-content/uploads/2021/01/Takenoko.jpg",
+      "precioProducto": "247.900",
+      "descripcion": "El Emperador japones a decidido dejar a cargo de la alimentación del panda a los miembros más fieles de su corte (los jugadores), ellos deberán llevar a cabo la más sagrada tarea de alimentar al panda, mediante el cultivo de jardines de bambú, estos jardines pueden ser de tres clases: verde, amarillo y rosa. El ganador de la partida sera el jugador que consiga hacer crecer la mayor cantidad de bambú y que administre mejor sus parcelas además de saciar el apetito del panda."
+    },
+    {
+      "id": 7,
+      "nombreProducto": "Juego PS4 Call Of Duty Vanguard",
+      "categorias": "videojuegos",
+      "urlImagen": "https://www.alkosto.com/medias/047875102729-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxNTIxNjd8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGpOQzlvTWpNdk1URXlOemsxTnpnek5qVTVPREl1YW5Cbnw3MGE4ZTFiOGUwZDFlNjFhZjAxMGJjZmY4OWU0ZGE4MmY3ZGI2NDIxZjI0ZDUzMWNlMGFiMDk3OGY1MzE5Njhk",
+      "precioProducto": "89.900",
+      "descripcion": "Rebélate en cada frente: combate sobre el Pacífico, defiende Stalingrado con la precisión de un francotirador, lánzate desde el aire en Francia o atraviesa fuerzas en el norte de África. La franquicia de Call of Duty regresa con Call of Duty: Vanguard, desarrollado por Sledgehammer Games. Los jugadores se sumergirán en el combate visceral de escala global de la Segunda Guerra Mundial."
+    },
+    {
+      "id": 8,
+      "nombreProducto": "Juego PS5 Gran Turismo 7",
+      "categorias": "videojuegos",
+      "urlImagen": "https://www.alkosto.com/medias/711719541400-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyNTg3MDF8aW1hZ2UvanBlZ3xhR1F6TDJoaVppOHhNek0yTVRZNE16a3lNamszTkM4M01URTNNVGsxTkRFME1EQmZNREF4WHpjMU1GZDROelV3U0F8ZjkzZDhhOGNlMWM4NzIxMzEwZmJmZjVlMTk0ZGU3ZDIxNDI5OTIxM2M5ZWVmYmIzZTk4M2MyN2E5OWM0ODlkNw",
+      "precioProducto": "429.900",
+      "descripcion": "Gran Turismo 7 se basa en 25 años de experiencia para ofrecerte las mejores características de la historia de la franquicia. Ya seas un corredor, coleccionista, sintonizador, diseñador de librea o fotógrafo competitivo o casual, encuentra tu línea con una colección asombrosa de modos de juego, incluidos los favoritos de los fanáticos como GT Campaign, Arcade y Driving School. Con la reintroducción del legendario modo de simulación GT, compre, afine, compita y venda su camino a través de una gratificante campaña en solitario mientras desbloquea nuevos autos y desafíos"
+    },
+    {
+      "id": 9,
+      "nombreProducto": "Juego PS5 Spider-Man: Miles Morales",
+      "categorias": "videojuegos",
+      "urlImagen": "https://www.alkosto.com/medias/711719542285-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyMDIwMjV8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGhZaTlvTm1Vdk9UazVNRFF4TVRjME56TTFPQzVxY0djfDBhMGNjNjlmYzdiNjc3YzAwNDAwODVmNTNkMGVmZjcyZmM3ODU4ODM4MmE1MzJkZDQ0NjE5MmJjNmNhMWIzZDY",
+      "precioProducto": "319.900",
+      "descripcion": "Sé mejor. Sé quién eres. Experimenta el ascenso de Miles Morales y sé testigo de cómo el nuevo héroe domina nuevos poderes increíbles y explosivos para convertirse en su propia versión de Spider-Man. En la última aventura del universo de Spider-Man de Marvel, el adolescente Miles Morales intenta ajustarse a su nuevo hogar mientras que sigue los pasos de su mentor, Peter Parker, para convertirse en el nuevo Spider-Man."
+    },
+    {
+      "id": 10,
+      "nombreProducto": "Videojuego PS4 PlayStation Hits: God Of War ",
+      "categorias": "videojuegos",
+      "urlImagen": "https://www.alkosto.com/medias/711719534129-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyODYxMjV8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzBNeTlvWXpRdk1URTFPRFkxTWpBd01qTXdOekF1YW5CbnxhNDg5ODBmY2U4NjYwYmI5Y2QyYjY0MzBlYmIyOTEzMTZiYWJiMjE4ZWRlZWViN2MzNTI5NTQ2MWUyOGQ2NWQw",
+      "precioProducto": "119.900",
+      "descripcion": "Nuevo comienzo para uno de los iconos más importantes dentro de la industria de los videojuegos.| En esta secuela, Kratos vive como un hombre lejos de la sombra de los dioses y debe adaptarse a tierras desconocidas, amenazas inesperadas y una segunda oportunidad para oficiar de padre. Ahora, junto a su joven hijo Atreus, se adentra en la salvaje tierra nórdica, donde luchan para completar una misión profundamente personal. Ya va siendo hora que entierres tus miedos, ¡adquiere el juego ahora!"
+    },
+    {
+      "id": 11,
+      "nombreProducto": "Juego PS4 Red Dead Redemption",
+      "categorias": "videojuegos",
+      "urlImagen": "https://www.alkosto.com/medias/710425478949-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyODY4MzN8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3haQzlvTmpBdk9URXhPREkzTWprM09EazNOQzVxY0djfGQwZWNhOWU3YzFmOTU5OTAxMDM2YjZiZGU0ZTJiMmY4NTgxZDNhYTc5NTllMDkyOWVlNmZkODExYTg0MWIxZDk",
+      "precioProducto": "89.900",
+      "descripcion": "¡Es hora de volver al Viejo Oeste! Ponte en los zapatos de Arthur Morgan, un miembro de la banda de Dutch van der Linde. Descubre lo que pasó antes de los eventos de Red Dead Redemption mientras exploras un amplio mundo abierto y tratas de sobrevivir junto con tus compañeros en una cruel tierra sin reglas."
+    },
+    {
+      "id": 12,
+      "nombreProducto": "Juego PLAYSTATION 4 Grand Theft Auto V PE",
+      "categorias": "videojuegos",
+      "urlImagen": "https://www.alkosto.com/medias/710425570360-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wyNzgyNDJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3hNeTlvT1Rndk1UTXpNREUwTVRNM05EQTFOelF1YW5Cbnw0ZTA3YTg2NmE4ZGJkYmY2NjAxOWZkNjM3NzRkYmIxMDFmNGI2ZGI1NTEzOTQyODFmNWM1MWU5ZWU3Y2JjNDE1",
+      "precioProducto": "89.900",
+      "descripcion": "Los Santos, una extensa y soleada metrópolis llena de gurús de autoayuda, aspirantes a estrellas y famosos en decadencia, en su día la envidia del mundo occidental, lucha ahora por mantenerse a flote en una era de incertidumbre económica y 'realities' baratos.Los sellos de esta rompedora saga están presentes en todo el juego, desde una increíble atención al detalle hasta el oscuro sentido del humor de Grand Theft Auto sobre la cultura moderna. Además, se ha dado un nuevo y más ambicioso enfoque al multijugador de mundo abierto."
+    },
+    {
+      "id": 13,
+      "nombreProducto": "Consola ROG Ally Digital 16GB RAM 512GB SSD Blanco",
+      "categorias": "consola",
+      "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-4711387225073-001.jpg?context=bWFzdGVyfGltYWdlc3wxOTAwNjN8aW1hZ2UvanBlZ3xhREUwTDJnd01DOHhNemsxTmpFME56RTRNelkwTmk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TkRjeE1UTTROekl5TlRBM00xOHdNREV1YW5Cbnw5ZDEyN2VkM2EwOGQxOGVhN2VlMzE5YTMxOGU3MjI1ZjNkYzdjNmI3NjM2YTIyZDIxMTg1MDE4MDk4Y2FmMDEx",
+      "precioProducto": "3.799.000",
+      "descripcion": "Sumérgete de lleno con la ROG ALLY en tus juegos AAA o indie favoritos y deja que el tiempo vuele gracias a una amplia pantalla de 7´ Full HD de 120Hz y una ergonomía increíblemente cómoda para jugar en red o incluso para jugar solo. Con Armoury Crate, ordena y ejecuta sin problema todos tus videojuegos desde un solo lugar, sin importar dónde estén instalados Steam, Xbox Game Pass, Epic Games, GOG y más. El procesador Ryzen Z1 Extreme de AMD junto con gráficos RDNA3 potencian esta increíble consola gaming. Además, admite carga rápida, cargar de 0 al 50 % en solo 30 minutos. ¡Cómprala ya!"
+    },
+    {
+      "id": 14,
+      "nombreProducto": "Consola PS4 1 TB + 1 Control Inalambrico + Juego God Of War Ragnarok",
+      "categorias": "consola",
+      "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-711719560418-001.jpg?context=bWFzdGVyfGltYWdlc3w0Mjc0NDR8aW1hZ2UvanBlZ3xhRFl3TDJnMk15OHhNelUyT1RnNU5qQTROelU0TWk4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2TnpFeE56RTVOVFl3TkRFNFh6QXdNUzVxY0djfGJkNjM5ZGQ2ZjBiYjBlODcyOWI2MTZmOTIzOWUxMDc1MDhkMTZjMWQzMzJhYmY0YzY2YTE1YjdhYWUyNzlhNjk",
+      "precioProducto": "2.499.900",
+      "descripcion": "¡Juegos increíbles, entrenamiento sin fin!. La consola PS4 ofrece una potenica de juego impresionante, entretenimiento increíble y tecnología de HRD intenso que tiene un disco duro de 1TB para que disfrutes los mejores juegos, tu música favorita y mucho más. Incluye Juego PS4 God Of War Ragnarok. Santa Monica Studio trae la secuela del aclamado God of War para PS4 (2018). Fimbulvetr ya está en camino. Kratos y Atreus deben viajar a cada uno de los nueve reinos en búsqueda de respuestas, mientras que las fuerzas asgardianas se preparan para una batalla profetizada que terminará con el mundo. Lleva la tuya ahora"
+    },
+    {
+      "id": 15,
+      "nombreProducto": "Consola NINTENDO SWITCH con Joy Con Neon/Blue",
+      "categorias": "consola",
+      "urlImagen": "https://www.alkosto.com/medias/045496882174-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxNDQ2MDR8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzVNQzlvT1Rjdk1UQTVPREU1TkRZMU1qTTJOemd1YW5Cbnw2NDA1OWViYjk0ZTc5YWFlZTliZDkyMWU4MjhmZjhkZTUzMGMxYmNhMjlmOGVhN2I0NjQyOThlMzNiY2YyYzIy",
+      "precioProducto": "1.699.000",
+      "descripcion": "La consola NINTENDO Switch Neon es una maravilla del entretenimiento en el mundo de los videojuegos. Esta consola híbrida combina la portabilidad de una consola de mano con la potencia de una consola de sobremesa, permitiéndote jugar en casa o llevar la diversión contigo dondequiera que vayas. Su diseño modular y versátil te ofrece múltiples formas de jugar: úsala en modo televisor con la base de carga, conviértela en una consola de mano en segundos o disfruta de la experiencia compartida en modo sobremesa con los mandos desmontables. ¡Compra la tuya aquí!"
+    },
+    {
+      "id": 16,
+      "nombreProducto": "Consola PS5 Estándar 825GB + 1 Control Dualsense",
+      "categorias": "consola",
+      "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-711719556220-001.jpg?context=bWFzdGVyfGltYWdlc3w5ODkzMHxpbWFnZS9qcGVnfGFEWXdMMmc0WWk4eE16VXdOVGN5TnpnNE9UUXpPQzgzTlRCWGVEYzFNRWhmYldGemRHVnlMMmh2ZEdadmJHUmxjaTkwY21GdWMyWmxjaTlwYm1OdmJXbHVaeTlrWlhCdmMybDBMMmg1WW5KcGN5MXBiblJsY21aaFkyVnpMMGxPTDIxbFpHbGhMM0J5YjJSMVkzUXZOekV4TnpFNU5UVTJNakl3WHpBd01TNXFjR2N8Njk0OTBjNTdjY2Y1MzkzNmE0ZDA5YWViNmRhZWQ1Nzk0MmZhYmM1NDEwNDI4ZTg0NDNmZWI2YjJmYzU1NDMyYQ",
+      "precioProducto": "2.899.900",
+      "descripcion": "La consola PS5™ hace posibles nuevas formas de juego que jamás habías imaginado. Experimenta una velocidad sorprendente con una SSD de velocidad ultrarrápida, una inmersión más profunda con soporte para respuesta háptica además de una generación completamente nueva de juegos de PlayStation®. Velocidad sorprendente: Disfruta de la potencia de una CPU, una GPU y una SSD personalizadas con E/S integradas que redefinirán lo que una consola PlayStation puede hacer."
+    },
+    {
+      "id": 17,
+      "nombreProducto": "Consola XBOX Series S 512 GB + 1 Control Inalámbrico",
+      "categorias": "consola",
+      "urlImagen": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-889842651348-001.jpg?context=bWFzdGVyfGltYWdlc3w1NDI4OXxpbWFnZS9qcGVnfGFESmlMMmd5T0M4eE16YzBNekV6Tmpjd01qUTVOQzgzTlRCWGVEYzFNRWhmYldGemRHVnlMMmh2ZEdadmJHUmxjaTkwY21GdWMyWmxjaTlwYm1OdmJXbHVaeTlrWlhCdmMybDBMMmg1WW5KcGN5MXBiblJsY21aaFkyVnpMMGxPTDIxbFpHbGhMM0J5YjJSMVkzUXZPRGc1T0RReU5qVXhNelE0WHpBd01TNXFjR2N8MWRmMTM3NjlkZmE2ZDM3MzEwZTMxNDJhNWY4ZDc0MzRmNGFiMDQ5Y2U2YjVlMDg3MDlmZWU5ZmIzODljMGYyYg",
+      "precioProducto": "1.649.900",
+      "descripcion": "Solo digital , Todo de nueva generación: Pásate a lo digital con la Xbox Series S y crea una biblioteca de juegos digitales. Tus juegos, partidas guardadas y copias de seguridad están a salvo en la nube. Además, disfruta de la capacidad de reservar y preinstalar los juegos disponibles próximamente para que puedas jugar a ellos en el momento de su lanzamiento."
+    },
+    {
+      "id": 18,
+      "nombreProducto": "Consola NINTENDO SWITCH Modelo OLED con Joy-Con Blanco|Negro",
+      "categorias": "consola",
+      "urlImagen": "https://www.alkosto.com/medias/045496883386-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxMzUwMzR8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzBZUzlvWXpjdk1URXlNRGd4TnpjMU5Ea3pOREl1YW5CbnwwZGNiZTNiODU2YjI5NWM0NjE5MWMxOGQ5Yzg2ZjdlNDc5N2Y4NmRiZDQ3YTI3MDYyNTFkMTcwMWVkZjU1MWEz",
+      "precioProducto": "1.999.000",
+      "descripcion": "Libérate de tu sofá con esta Consola de Nintendo Switch OLED Blanco y juega en casa en el televisor o mientras viajas.Cuenta con una pantalla táctil OLED para formas intuitivas de jugar cuando estás en modo portátil y puedes conectarte a tu WiFi para competir en línea. Además,los controles Joy-Con incluidos se pueden usar juntos para experiencias intensas para un solo jugador,o puedes entregar uno a un amigo para batallas épicas multijugador."
+    },
+    {
+      "nombreProducto": "Play 6 chipeada",
+      "categorias": "consola",
+      "urlImagen": "aasdasd",
+      "precioProducto": "200.000.000",
+      "descripcion": "Play chipeada salida de la nasa",
+      "id": 19
+    },
+    {
+      "nombreProducto": "Perros callejeros 7 la venganza",
+      "categorias": "videojuegos",
+      "urlImagen": "qweqweqw",
+      "precioProducto": "200.000",
+      "descripcion": "La tan esperada secuela de perros callejeros 6 el retorno del alfa",
+      "id": 20
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "body": "Comment 1"
+    },
+    {
+      "id": 2,
+      "body": "Comment 2"
+    }
+  ]
 }

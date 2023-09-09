@@ -9,8 +9,6 @@ function Inicio() {
       <main>
         <Link to="/NuevoProducto"> <button>Nuevo producto</button>
         </Link>
-        <Link to="/Login"> <button>Login</button>
-        </Link>
         <Link to="/totalProductos"> <button>totalProductos</button>
         </Link>
         <div className="preguntas">
