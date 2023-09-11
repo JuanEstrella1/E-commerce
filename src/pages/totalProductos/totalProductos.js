@@ -1,7 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { buscar } from "../../apis/apis";
+import { buscar, eliminarProducto, actualizarProducto } from "../../apis/apis";
 import { Link } from "react-router-dom";
+import {BiEditAlt} from "react-icons/bi"
+import {MdDelete} from "react-icons/md"
 import "./totalProductos.css"
 
 function TotalProductos({ url }) {
@@ -18,6 +20,10 @@ function TotalProductos({ url }) {
         const { nombreProducto, precioProducto,urlImagen, id } = producto;
         return (
           <div className="card">
+            <BiEditAlt className="edit"/>
+            <MdDelete className="delete" onClick={()=>{
+              eliminarProducto(id)
+            }}/>
             <img
               src={urlImagen}
               alt="imgCard"

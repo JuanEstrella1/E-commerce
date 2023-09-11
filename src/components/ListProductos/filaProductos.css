@@ -3,13 +3,28 @@
     flex-direction: column;
     justify-content: center;
 }
+.containerFila{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
 .containerCards{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    margin: 0;
     
 }
 .tituloFila{
     font-family: raleway;
+    background-color: beige;
+}
+.containerTituloFila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+    margin-bottom: 0px;
 }
 

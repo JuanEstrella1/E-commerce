@@ -1,3 +1,12 @@
+.sectionCard{
+    display: block;
+}
+
+@media (max-Width:700px) {
+    .sectionCard{
+        display: none;;
+    }
+}
 
 .card{
     width: 200px;
@@ -25,4 +34,14 @@
 .imgCard{
     width: 90%;
     height: auto;
+}
+.edit{
+position: relative;
+left: 100px;
+margin: 0 20px;
+
+}
+.delete{
+    position: relative;
+left: 100px;
 }
