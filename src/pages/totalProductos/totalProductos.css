@@ -1,11 +1,21 @@
-.sectionTotalProductos{
-    display: flex;
-    justify-content: center;
+.sectionTotalProductos {
+  display: flex;
+  justify-content: center;
 }
-.containerProductos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 30px;
+.containerProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+.containerIconosTotalProductos {
+  display: flex;
+  justify-content: flex-end;
+}
+.edit {
+  margin-right: 10px;
+}
+.delete {
+  margin-right: 20px;
 }

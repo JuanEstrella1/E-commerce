@@ -48,3 +48,30 @@ export const eliminarProducto = async(id) => {
     console.error('Error al eliminar el elemento:', error);
   }
 }
+
+
+//////////////// Upload // upload
+
+export const actualizarProducto = async (id, data) => {
+  const {nombreProducto,urlImg,descripcion,precio,categoria} = data
+  try {
+    const response = await fetch(`http://localhost:5001/productos/${id}`, {
+      method: 'PUT', // O 'PATCH' dependiendo de tu API
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        nombreProducto:nombreProducto,
+        categorias:categoria,
+        urlImagen:urlImg,
+        precioProducto:precio,
+        descripcion:descripcion
+      })});
+    const elementoActualizado = await response.json();
+    console.log('Elemento actualizado:', elementoActualizado);
+  } catch (error) {
+    console.error('Error al actualizar el elemento:', error);
+  }
+}
+
+

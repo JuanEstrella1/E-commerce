@@ -4,10 +4,13 @@ import { buscar, eliminarProducto, actualizarProducto } from "../../apis/apis";
 import { Link } from "react-router-dom";
 import {BiEditAlt} from "react-icons/bi"
 import {MdDelete} from "react-icons/md"
+import VentanaEmergente from "../../components/VentaEmergente/ventanaEmergente";
 import "./totalProductos.css"
 
 function TotalProductos({ url }) {
+const [idProducto,setIdProducto] = useState()
   const [productos, setProductos] = useState([]);
+  const [mostrarActualizar,setMostrarActualizar] = useState(false);
 
   useEffect(() => {
     buscar(url, setProductos);
@@ -16,14 +19,22 @@ function TotalProductos({ url }) {
   return (
     <section className="sectionTotalProductos">
       <div className="containerProductos">
+      { mostrarActualizar &&<VentanaEmergente  mostrarActualizar={setMostrarActualizar} id={idProducto}/>}
       {productos.map((producto) => {
-        const { nombreProducto, precioProducto,urlImagen, id } = producto;
+        const { nombreProducto, precioProducto,urlImagen,id} = producto;
+        console.log(producto)
         return (
-          <div className="card">
-            <BiEditAlt className="edit"/>
+          
+          <div className="card" key={nombreProducto}>
+
+            <div className="containerIconosTotalProductos">
+            <BiEditAlt className="edit" onClick={()=> {
+              setMostrarActualizar(true)
+              setIdProducto(id)
+            }}/>
             <MdDelete className="delete" onClick={()=>{
               eliminarProducto(id)
-            }}/>
+            }}/></div>
             <img
               src={urlImagen}
               alt="imgCard"
