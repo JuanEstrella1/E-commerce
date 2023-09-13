@@ -75,3 +75,22 @@ export const actualizarProducto = async (id, data) => {
 }
 
 
+///////////////////////////////
+//  APIS USUARIOS    ///
+
+///////////// CREATE USUARIO
+
+export const crearUsuario = async (data) => {
+    try {const response =  await fetch("http://localhost:5001/usuarios", {
+    method: "POST",
+    headers: {
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify(data)});
+    const nuevoElemento = await response.json();
+    console.log('Elemento creado:', nuevoElemento);
+  } catch (error) {
+    console.error('Error al crear el elemento:', error);
+  }
+};
+

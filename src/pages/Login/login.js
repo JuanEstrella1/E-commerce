@@ -1,13 +1,19 @@
 import React from "react";
 import { TextField } from "@mui/material";
+import { useState } from "react";
+import VentanaRegistro from "./components/crearUsuario";
+import { Link } from "react-router-dom";
 import "./login.css"
 
 
 function Login() {
 
+    const [crearCuenta,setCrearCuenta] = useState(false)
+
 
     return (
         <section className="containerSectionLogin">
+            {crearCuenta && <VentanaRegistro mostrarCrear ={setCrearCuenta}/>}
             <div className="containerLogin">
                 <form>
                     <h1 className="tituloLogin">Iniciar Sesión</h1>
@@ -24,8 +30,9 @@ function Login() {
 
             </div>
             <div className="crearCuenta">
-                <button className="btnSingUP" onSubmit="">Crear cuenta nueva</button>
-
+                <Link to="/crearUsuario">
+                <button className="btnSingUP" onClick={()=>setCrearCuenta(true)}>Crear cuenta nueva</button>
+                </Link>
             </div>
         </section>
     )

@@ -143,24 +143,31 @@
       "urlImagen": "https://www.alkosto.com/medias/045496883386-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxMzUwMzR8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzBZUzlvWXpjdk1URXlNRGd4TnpjMU5Ea3pOREl1YW5CbnwwZGNiZTNiODU2YjI5NWM0NjE5MWMxOGQ5Yzg2ZjdlNDc5N2Y4NmRiZDQ3YTI3MDYyNTFkMTcwMWVkZjU1MWEz",
       "precioProducto": "1.999.000",
       "descripcion": "Libérate de tu sofá con esta Consola de Nintendo Switch OLED Blanco y juega en casa en el televisor o mientras viajas.Cuenta con una pantalla táctil OLED para formas intuitivas de jugar cuando estás en modo portátil y puedes conectarte a tu WiFi para competir en línea. Además,los controles Joy-Con incluidos se pueden usar juntos para experiencias intensas para un solo jugador,o puedes entregar uno a un amigo para batallas épicas multijugador."
-    },
-    {
-      "nombreProducto": "zxczxczxczxc",
-      "categorias": "consola",
-      "urlImagen": "zxczxczxczxc",
-      "precioProducto": "zxczxczxczxczxc",
-      "descripcion": "zxczxczxczxczxczxc",
-      "id": 20
     }
   ],
   "usuarios": [
     {
       "id": 1,
-      "body": "Comment 1"
+      "contraseña": "asdasdasd",
+      "correo": "perros 4mil",
+      "direccion": "<NAME>",
+      "telefono": "+34 987654321",
+      "nombre": "aquiles",
+      "apellido": "caigo"
     },
     {
       "id": 2,
       "body": "Comment 2"
+    },
+    {
+      "nombre": "Juan Fernando",
+      "apellido": "Quintero Cuadrado",
+      "correo": "jestrella9294@gmail.com",
+      "contraseña": "Goku12556",
+      "telefono": "3182412920",
+      "direccion": "Calle 12 Nro 23 - 93",
+      "contraseaña": "Goku12556",
+      "id": 3
     }
   ]
 }

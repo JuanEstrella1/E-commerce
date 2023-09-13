@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { buscar, eliminarProducto, actualizarProducto } from "../../apis/apis";
+import { buscar, eliminarProducto } from "../../apis/apis";
 import { Link } from "react-router-dom";
 import {BiEditAlt} from "react-icons/bi"
 import {MdDelete} from "react-icons/md"

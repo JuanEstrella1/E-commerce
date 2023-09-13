@@ -18,7 +18,6 @@ function NuevoProducto() {
   const [id, setId] = useState();
   const [precio, setPrecio] = useState();
   const [descripcion, setDescripcion] = useState(); */
-  const [categoria, setCategoria] = useState();
   //////// Actualizacion de el formulario completo
   const [formulario, setFormulario] = useState({
     urlImg: "",
@@ -78,7 +77,6 @@ function NuevoProducto() {
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
-              value={categoria}
               label="Categoria"
               name="categoria"
               onChange={handleChange}

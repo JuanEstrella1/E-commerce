@@ -7,7 +7,7 @@ import { buscar } from "../../apis/apis";
 function Inicio() {
     return (
       <main>
-        <Link to="/NuevoProducto"> <button>Nuevo producto</button>
+        <Link to="/nuevoProducto"> <button>Nuevo producto</button>
         </Link>
         <Link to="/totalProductos"> <button>totalProductos</button>
         </Link>

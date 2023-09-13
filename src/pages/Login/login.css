@@ -53,3 +53,6 @@ align-items: center;
 .btnSingUP{   
     margin-top: 40px;
 }
+#fullWidth{
+    position: inherit;
+}

@@ -14,7 +14,7 @@ function Navbar() {
         <input type="text" className="buscador" placeholder="¿Qué deseas buscar?"></input>
         <AiOutlineSearch className="lupa"></AiOutlineSearch>
         </div>
-        <Link to="/Login"><button className="btnLoginInicio">Login</button></Link> 
+        <Link to="/login"><button className="btnLoginInicio">Login</button></Link> 
 
       </nav>
     </header>
