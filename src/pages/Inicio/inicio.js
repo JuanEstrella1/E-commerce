@@ -1,33 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Card from "../../components/card/card";
 import Fila from "../../components/ListProductos/filaProductos";
-import { buscar } from "../../apis/apis";
+import "./inicio.css";
+import banner from "./toad.jpg";
 
 function Inicio() {
-    return (
-      <main>
-        <Link to="/nuevoProducto"> <button>Nuevo producto</button>
-        </Link>
-        <Link to="/totalProductos"> <button>totalProductos</button>
-        </Link>
-        <div className="preguntas">
-          <a href="/">¿Quienes Somos?</a>
-          <a href="/">Politica de privacidad</a>
-          <a href="/">Programa de fidelidad</a>
-          <a href="/">Nuestras tiendas</a>
-          <a href="/">Quiero ser embajador</a>
-          <a href="/">Anuncie aqui</a>
+  return (
+    <main>
+      
+      <div className="containerPrincipal">
+        {/* <img src={banner} alt="banner" className="banner" /> */}
+        <div className="containerContenidoBanner">
+        <h1 className="tituloInicio"> Septiembre Promocional</h1>
+        <h3 className="subTituloInicio"> Productos seleccionados con el 40% de descuento</h3>
+          <Link to="/totalProductos">
+        <button className="btnInicio">Ver mas</button>
+      </Link>
         </div>
+      </div>
 
-        
-        <Fila categoria={"videojuegos"} titulo={"Videojuegos"}/>
-        <Fila categoria={"consola"} titulo={"Consolas"}/>
-        <Fila categoria={"boardgame"} titulo={"Juegos de mesa"}/>
+      <Fila categoria={"videojuegos"} titulo={"Videojuegos"} />
+      <Fila categoria={"consola"} titulo={"Consolas"} />
+      <Fila categoria={"boardgame"} titulo={"Juegos de mesa"} />
+    </main>
+  );
+}
 
-        
-      </main>
-    );
-  }
-  
-  export default Inicio;
+export default Inicio;

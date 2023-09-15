@@ -78,6 +78,14 @@ export const actualizarProducto = async (id, data) => {
 ///////////////////////////////
 //  APIS USUARIOS    ///
 
+///////////// READ USUARIO  
+
+export const buscarUsuarios = async (url, setData) => {
+  const respuesta = await api.get(url);
+  setData(respuesta.data);
+};
+
+
 ///////////// CREATE USUARIO
 
 export const crearUsuario = async (data) => {

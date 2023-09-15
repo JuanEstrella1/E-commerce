@@ -12,12 +12,7 @@ import "./nuevoProducto.css";
 
 function NuevoProducto() {
   ////////actualizaciones para cada campo
-  /* const [urlImg, setUrlImg] = useState();
-  const [categoria, setCategoria] = useState();
-  const [nombreProducto, setNombreProducto] = useState();
-  const [id, setId] = useState();
-  const [precio, setPrecio] = useState();
-  const [descripcion, setDescripcion] = useState(); */
+  
   //////// Actualizacion de el formulario completo
   const [formulario, setFormulario] = useState({
     urlImg: "",

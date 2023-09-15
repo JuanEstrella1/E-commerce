@@ -32,17 +32,12 @@ function FilaProductos(props) {
     overflow: 'hidden'
   }
   const anchoPantalla = window.innerWidth;
-
-
-
-
-
   return (
     <section className="sectionFila">
       <div className="containerFila">
         <div className="containerTituloFila">
           <h1 class="tituloFila">{titulo}</h1>
-          <Link to={"/totalProductos"}>Ver todos</Link></div>
+          <Link to={"/totalProductos"} className="verTodoFila">Ver todos</Link></div>
         <div className="containerCards">
           {arrProductos.map((producto, i) => {
             const { id, nombreProducto, precioProducto, urlImagen } = producto;

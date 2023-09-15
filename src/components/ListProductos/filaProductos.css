@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 20px;
 }
 .containerFila{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
 }
@@ -17,7 +17,6 @@
 }
 .tituloFila{
     font-family: raleway;
-    background-color: beige;
 }
 .containerTituloFila{
     display: flex;
@@ -26,5 +25,15 @@
     align-items: center;
     padding: 0 160px;
     margin-bottom: 0px;
+}
+.verTodoFila,.flechaFila{
+    text-decoration: none;
+    color: #2A7AE4;
+    text-align: center;
+}
+.verTodoFila:hover,.flechaFila:hover{
+    color: #2407dc;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
