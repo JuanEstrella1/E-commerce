@@ -14,7 +14,7 @@ function TotalProductos({ url }) {
 
   useEffect(() => {
     buscar(url, setProductos);
-  }, [url]);
+  }, [productos,url]);
 
   return (
     <section className="sectionTotalProductos">

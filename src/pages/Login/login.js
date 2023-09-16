@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { TextField } from "@mui/material";
 import { useState } from "react";
-import { Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputLabel from "@mui/material/InputLabel";
@@ -13,21 +13,19 @@ import { buscarUsuarios } from "../../apis/apis";
 
 import "./login.css";
 
-
 function Login() {
-
-///////invocar base de datos de usuarios.
-const [usuarios, setUsuarios] = useState([]);
-const [validacionLogin,setValidacionLogin]= useState (false)
-const navigate = useNavigate()
-const [login, setLogin]= useState({
+  ///////invocar base de datos de usuarios.
+  const [usuarios, setUsuarios] = useState([]);
+  const [validacionLogin, setValidacionLogin] = useState(false);
+  const navigate = useNavigate();
+  const [login, setLogin] = useState({
     correo: "",
-    contraseña: ""
-})
+    contraseña: "",
+  });
 
-useEffect(()=>{
+  useEffect(() => {
     buscarUsuarios("/usuarios", setUsuarios);
-},[usuarios])
+  }, [usuarios]);
 
   const [showPassword, setShowPassword] = useState(false);
   const [errorCorreo, setErrorCorreo] = useState(false);
@@ -37,25 +35,34 @@ useEffect(()=>{
     console.log(value);
     setLogin({ ...login, [name]: value });
   };
- 
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    
-    usuarios.map((usuario)=>{
-        if (usuario.correo === login.correo && usuario.contraseña === login.contraseña)
-         { return setValidacionLogin(false) } 
-         else {return setValidacionLogin(true)}
-       
-    })
-  }
+    console.log(login)
+    usuarios.map((usuario) => {
+      if (
+        usuario.correo === login.correo &&
+        usuario.contraseña === login.contraseña
+      ) {
+         setValidacionLogin(false);
+         return navigate("/");
+        
+      } else {
+         return setValidacionLogin(true);
+      }
+    });
+  };
 
-
-   
   return (
     <section className="containerSectionLogin">
       <div className="containerLogin">
-      {validacionLogin && <div><h1 style={{backgroundColor:"black"}}>Perros no es</h1></div>}
+        {validacionLogin && (
+          <div className="sesionFallida">
+            <p className="mensajeSesionFallida">
+              El correo o la contraseña proporcionados <br /> son incorrectos
+            </p>
+          </div>
+        )}
         <form onSubmit={handleSubmit}>
           <h1 className="tituloLogin">Iniciar Sesión</h1>
           <TextField
@@ -65,12 +72,17 @@ useEffect(()=>{
             margin="normal"
             name="correo"
             error={errorCorreo}
-            helperText={errorCorreo && "Ingrese un correo electrónico válido (nombre@ejemplo.com)"}
+            helperText={
+              errorCorreo &&
+              "Ingrese un correo electrónico válido (nombre@ejemplo.com)"
+            }
             onChange={(e) => {
-                const { name, value } = e.target;
-                value.length > 2 && !value.includes("@") ? setErrorCorreo(true): setErrorCorreo(false)
-                setLogin({ ...login, [name]: value });
-              }}
+              const { name, value } = e.target;
+              value.length > 2 && !value.includes("@")
+                ? setErrorCorreo(true)
+                : setErrorCorreo(false);
+              setLogin({ ...login, [name]: value });
+            }}
           />
           <FormControl variant="outlined" fullWidth id="contraseña">
             <InputLabel htmlFor="outlined-adornment-password">
@@ -96,12 +108,11 @@ useEffect(()=>{
               label="Password"
             />
           </FormControl>
-              
-          <button className="btnLogin" onClick={()=>{
-            validacionLogin && navigate("/")
-          }}>
+
+          <button
+            className="btnLogin">
             Entrar
-          </button> 
+          </button>
         </form>
         <div className="olvidoContraseña">
           <a href="/" className="olvidoContraseña">

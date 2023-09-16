@@ -7,12 +7,15 @@ import {
   FormControl,
 } from "@mui/material";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { crearProductos } from "../../apis/apis";
 import "./nuevoProducto.css";
 
 function NuevoProducto() {
-  ////////actualizaciones para cada campo
-  
+  //////// configuracion de la link cuando se crea un producto
+
+  const navigate = useNavigate();
+
   //////// Actualizacion de el formulario completo
   const [formulario, setFormulario] = useState({
     urlImg: "",
@@ -25,55 +28,94 @@ function NuevoProducto() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(value);
     setFormulario({ ...formulario, [name]: value });
   };
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      await crearProductos(formulario);
-      setFormulario({
-        urlImg: "",
-        categoria: "",
-        nombreProducto: "",
-        id: "",
-        precio: "",
-        descripcion: "",
-      });
-    } catch (error) {
-      console.error("Error al crear el elemento:", error);
+
+    if (
+      validacionCategoria === false &&
+      validacionNombre === false &&
+      validacionPrecio === false &&
+      validacionUrl === false
+    ) {
+      try {
+        await crearProductos(formulario);
+        setFormulario({
+          urlImg: "",
+          categoria: "",
+          nombreProducto: "",
+          id: "",
+          precio: "",
+          descripcion: "",
+        });
+        navigate("/totalProductos");
+      } catch (error) {
+        console.error("Error al crear el elemento:", error);
+      }
+    } else {
+      alert("Debe llenar todos los campos");
     }
   };
 
+  /*   //////// invocacion de la base de datos
+
   useEffect(() => {
     console.log(formulario);
-  }, [formulario]);
+  }, [formulario]); */
+
+  ////////// Codigo para la validacion de los campos a rellenar
+  const [validacionUrl, setValidacionUrl] = useState(false);
+  const [validacionCategoria, setValidacionCategoria] = useState(false);
+  const [validacionNombre, setValidacionNombre] = useState(false);
+  const [validacionPrecio, setValidacionPrecio] = useState(false);
+
+  /////////// validacion de formulario vacio
+
+  const validarFormulario = () => {
+    formulario.nombreProducto === "" && setValidacionNombre(true);
+    formulario.precio === "" && setValidacionPrecio(true);
+    formulario.urlImg === "" && setValidacionUrl(true);
+    formulario.categoria === "" && setValidacionCategoria(true);
+  };
 
   return (
     <section>
       <div className="containerNuevoProducto">
-        <form
-          onSubmit={handleSubmit}
-        >
+        <form onSubmit={handleSubmit}>
           <h1 className="tituloNurvoProducto">Agregar nuevo producto</h1>
 
           <TextField
             fullWidth
-            label="Url de la imgaen"
+            label="Url de la imgaen *"
             id="fullWidth"
             margin="dense"
             name="urlImg"
-            onChange={ handleChange}
+            error={validacionUrl}
+            helperText={validacionUrl && "Este campo no puede quedar vacio"}
+            onChange={handleChange}
+            onBlur={(e) => {
+              console.log(e.target.value);
+              e.target.value === ""
+                ? setValidacionUrl(true)
+                : setValidacionUrl(false);
+            }}
           />
           <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Categoria</InputLabel>
+            <InputLabel id="demo-simple-select-label">Categoria *</InputLabel>
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
               label="Categoria"
               name="categoria"
+              error={validacionCategoria}
+              onBlur={(e) => {
+                console.log(e.target.value);
+                e.target.value === undefined
+                  ? setValidacionCategoria(true)
+                  : setValidacionCategoria(false);
+              }}
               onChange={handleChange}
             >
               <MenuItem value={""} disabled defaultValue="" hidden>
@@ -87,18 +129,34 @@ function NuevoProducto() {
 
           <TextField
             fullWidth
-            label="Nombre del Producto"
+            label="Nombre del Producto *"
             id="fullWidth"
             margin="dense"
             name="nombreProducto"
+            error={validacionNombre}
+            helperText={validacionNombre && "Este campo no puede quedar vacio"}
+            onBlur={(e) => {
+              console.log(e.target.value);
+              e.target.value === ""
+                ? setValidacionNombre(true)
+                : setValidacionNombre(false);
+            }}
             onChange={handleChange}
           />
           <TextField
             fullWidth
-            label="Precio"
+            label="Precio *"
             id="fullWidth"
             margin="dense"
             name="precio"
+            error={validacionPrecio}
+            helperText={validacionPrecio && "Este campo no puede quedar vacio"}
+            onBlur={(e) => {
+              console.log(e.target.value);
+              e.target.value === ""
+                ? setValidacionPrecio(true)
+                : setValidacionPrecio(false);
+            }}
             onChange={handleChange}
           />
           <TextField
@@ -111,7 +169,11 @@ function NuevoProducto() {
             rows={3}
             onChange={handleChange}
           />
-          <button className="btnAgregarProducto" type="submit">
+          <button
+            className="btnAgregarProducto"
+            type="submit"
+            onClick={validarFormulario}
+          >
             Agregar Producto
           </button>
         </form>

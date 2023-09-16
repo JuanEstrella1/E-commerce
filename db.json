@@ -157,7 +157,8 @@
     },
     {
       "id": 2,
-      "body": "Comment 2"
+      "correo": "motomamimotomami",
+      "contraseña": "motomamimotomami"
     },
     {
       "nombre": "Juan Fernando",
@@ -168,6 +169,24 @@
       "direccion": "Calle 12 Nro 23 - 93",
       "contraseaña": "Goku12556",
       "id": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Juan Esteban",
+      "apellido": "Estrella",
+      "correo": "jes",
+      "contraseña": "asdas",
+      "telefono": "asdasdas",
+      "direccion": "asdasd"
+    },
+    {
+      "id": 5,
+      "nombre": "Juan",
+      "apellido": "Estrella Soto",
+      "correo": "asdas@",
+      "contraseña": "asdasdasd",
+      "telefono": "asdasd",
+      "direccion": "asdasd"
     }
   ]
 }
