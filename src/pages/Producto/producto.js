@@ -3,10 +3,11 @@ import "./Producto.css";
 import FilaProductos from "../../components/ListProductos/filaProductos";
 import { buscar } from "../../apis/apis";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 
 function Producto() {
   const [productos, setProductos] = useState({});
+  const navigate = useNavigate()
 
   const { precioProducto, nombreProducto, urlImagen, descripcion, categorias} = productos;
   let { id } = useParams();
@@ -14,7 +15,11 @@ function Producto() {
   
   
   useEffect(() => {
-    buscar(`/productos/${id}`, setProductos);
+    buscar(`/productos/${id}`, setProductos)
+    .catch(()=>{
+      navigate("/not-found")
+    })
+
   }, [id]);
   console.log(precioProducto)
 
