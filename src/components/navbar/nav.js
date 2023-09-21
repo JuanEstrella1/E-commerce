@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 import {AiOutlineSearch} from "react-icons/ai"
 
 function Navbar() {
+
+let anchoPantalla=window.innerWidth;
+console.log(anchoPantalla)
+
+
   return (
     <header>
       <nav className="nav">
@@ -14,7 +19,7 @@ function Navbar() {
         <input type="text" className="buscador" placeholder="¿Qué deseas buscar?"></input>
         <AiOutlineSearch className="lupa"></AiOutlineSearch>
         </div>
-        <Link to="/login"><button className="btnLoginInicio">Login</button></Link> 
+        <Link to="/login" className="linkBtnLogin"><button className="btnLoginInicio">Login</button></Link> 
 
       </nav>
     </header>

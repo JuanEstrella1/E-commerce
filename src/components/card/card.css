@@ -1,12 +1,4 @@
-.sectionCard{
-    display: block;
-}
 
-@media (max-Width:700px) {
-    .sectionCard{
-        display: none;;
-    }
-}
 
 .card{
     width: 200px;
@@ -35,3 +27,18 @@
     width: 90%;
     height: auto;
 }
+
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+   
+
+}
+/* /////////Celulares///////// */
+@media (max-width: 700px) {
+    .card{
+        width: 150px;
+        margin: 20px 10px;
+        cursor: pointer;
+    }
+    
+    }

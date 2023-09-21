@@ -1,94 +1,149 @@
+.containerFooter {
+  background-color: #eaf2fd;
+  display: flex;
+  flex-direction: row;
+}
+.solo2 {
+  display: flex;
+  flex-direction: row;
+}
+.logoFooter {
+  display: flex;
+  align-items: center;
+}
+.imgFooter {
+  width: 80%;
+  height: auto;
+  padding: 32px;
+}
+.preguntas {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 60px 0;
+  margin: 0 100px 0 20px;
+}
+.preguntas a {
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+.preguntas a:hover {
+  margin: 10px 0;
+  text-decoration: none;
+  color: #2a7ae4;
+  text-decoration: underline;
+}
 
-.containerFooter{
-    background-color:  #EAF2FD;
-    display: flex;
-    flex-direction: row;
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
 }
-.imgFooter{
-    width: 80%;
-    height: auto;
-    padding: 32px;
+
+.contacto h2 {
+  text-align: left;
 }
-.preguntas{
+
+#outlined-basic-1 {
+  background-color: white;
+}
+
+#outlined-basic {
+  background-color: white;
+  word-break: break-all;
+}
+
+.btnMensaje {
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-color: transparent;
+  color: white;
+  background-color: #2a7ae4;
+  margin-top: 20px;
+}
+
+.btnMensaje:hover {
+  background-color: #2407dc;
+  color: white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.referencias {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h5 {
+  text-align: center;
+  margin: 0;
+}
+.containerLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logoRedes {
+  color: rgb(85, 84, 84);
+  width: 70%;
+  height: 70%;
+  margin: 10px 10px 0 10px;
+}
+
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+  .solo2 {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    padding: 60px 0;
-    margin: 0 100px 0 20px;
-}
-.preguntas a{
-    margin: 10px 0;
-    text-decoration: none;
+    width: 50%;
+  }
+
+  .imgFooter {
+    padding: 20px 10px;
+  }
+  .preguntas {
+    padding: 10px;
     color: black;
-}
-.preguntas a:hover{
-    margin: 10px 0;
-    text-decoration: none;
-    color: #2A7AE4;
-    text-decoration: underline;
-}
-
-
-.contacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: flex-start;
-}
-
-.contacto h2{
-    text-align: left;
-}
-
-#outlined-basic-1{
-    background-color: white;
-    width: 500px;
-}
-
-
-#outlined-basic{
-    background-color: white;
-    width: 500px;
-    word-break: break-all;
-}
-
-.btnMensaje{
-    width: 200px;
-    height: 50px;
-    font-size: 1.2rem;
-    border-color: transparent;
-    color: white;
-    background-color: #2A7AE4;
-    margin-top: 20px;
-}
-
-.btnMensaje:hover{
-    background-color: #2407dc;
-    color: white;
-    transition-duration: .5s;
-    cursor: pointer;
-    
-}
-.referencias{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-h5{
     text-align: center;
-    margin: 0;
+    padding-left: 30px;
+  }
+
+  .contacto {
+    width: 50%;
+  }
+  .inputFooter {
+    width: 80%;
+  }
 }
-.containerLogo{
-    width: 100%;
+/* /////////Celulares///////// */
+@media (max-width: 700px) {
+  .containerFooter {
     display: flex;
-    justify-content: center;
-}
+    flex-direction: column;
+  }
+  .solo2 {
+    display: flex;
+    flex-direction: column;
+  }
 
-
- .logoRedes{
-    color: rgb(85, 84, 84);
-    width: 70%;
-   height: 70%;
-   margin: 10px 10px 0 10px;
+  .imgFooter {
+    padding: 20px 30px;
+  }
+  .preguntas {
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .contacto {
+    padding: 20px 30px;
+  }
+  .inputFooter {
+    width: 100%;
+  }
 }

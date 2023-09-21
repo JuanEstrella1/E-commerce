@@ -7,13 +7,8 @@ function Card(props) {
 
  const {nombre,precio,url,id,} = props 
 
-
-
-
-
-   
   return (
-    <section className='sectionCard' style={{overflow:"hidden"}}>
+    <section>
       <div className="card">
         
         <img

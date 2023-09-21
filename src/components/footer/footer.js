@@ -9,6 +9,7 @@ function Footer() {
   return (
     <footer>
       <div className="containerFooter">
+      <div className="solo2">
       <div className="logoFooter">
       <Link to="/"> <img src={logo} alt="logo" className="imgFooter"></img>
         </Link>
@@ -21,14 +22,15 @@ function Footer() {
         <a href="/">Quiero ser embajador</a>
         <a href="/">Anuncie aqui</a>
       </div>
+      </div>
       <div className="contacto">
         <h2>Habla con nosotros</h2>
         <form>
-        <TextField id="outlined-basic-1" label="Nombre" variant="outlined" />
+        <div className="inputFooter">
+        <TextField id="outlined-basic-1" label="Nombre" variant="outlined" fullWidth margin="normal"/>
+        <TextField id="outlined-basic" label="Escribir Mensaje" variant="outlined" fullWidth margin="normal"/>
         <br></br>
-        <br></br>
-        <TextField id="outlined-basic" label="Escribir Mensaje" variant="outlined"  />
-        <br></br>
+        </div>
         <button className="btnMensaje"onSubmit="">Enviar Mensaje</button>
         </form>
       </div>

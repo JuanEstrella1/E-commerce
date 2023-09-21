@@ -37,3 +37,22 @@
     cursor: pointer;
 }
 
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+   .containerCards{
+    padding: 0 10px;
+   }
+   .containerTituloFila{
+    width: 80%;
+    padding: 0 50px;
+   }
+
+}
+/* /////////Celulares///////// */
+@media (max-width: 700px) {
+    .containerTituloFila{
+        width: 70%;
+        padding: 0 50px;
+       }
+    }
+

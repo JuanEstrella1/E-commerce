@@ -31,7 +31,7 @@ function FilaProductos(props) {
   const esconder = {
     overflow: 'hidden'
   }
-  const anchoPantalla = window.innerWidth;
+  let anchoPantalla = window.innerWidth;
   return (
     <section className="sectionFila">
       <div className="containerFila">
@@ -41,10 +41,11 @@ function FilaProductos(props) {
         <div className="containerCards">
           {arrProductos.map((producto, i) => {
             const { id, nombreProducto, precioProducto, urlImagen } = producto;
+            console.log()
 
             return (
               <div key={id}>
-                {
+                {/* {
                   //se crean las variables necesarias para poder modificar el slider en función al ancho y largo de la pantalla
                   (anchoPantalla < 1100) && (i > 3 && i < 5) ?
                     <Card nombre={nombreProducto}
@@ -58,20 +59,15 @@ function FilaProductos(props) {
                     id ={id} 
                     index = {i}/>
                     : <></> 
-              }
-
-
-
-
-
-
-
-                {/*  (i <= 5)  ? <Card nombre ={nombreProducto} 
+              } */}
+              {(anchoPantalla <= 1200)&&(i < 2) ? 
+              <></> : 
+              <Card nombre ={nombreProducto} 
             precio ={precioProducto}
             url ={urlImagen}
             id ={id} 
             index = {i}/>
-            : <></>  */}
+             }
               </div>)
           })}
         </div>

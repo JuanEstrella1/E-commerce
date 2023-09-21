@@ -1,62 +1,121 @@
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.contBuscador{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 80px;
-}
-
-.imglogo{
-    width: 60%;
-    height: 20%;
-    padding: 32px 0;
-}
-.buscador{
-    padding: 0 20px;
-    width: 250px;
-    height: 40px;
-    border: 0px;
-    border-radius: 20px;
-    background-color: #F5F5F5;
-}
-.buscador::placeholder{
-    color: gray;
-    opacity: 0.5;
+.contBuscador {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 80px;
 }
 
-.btnLoginInicio{
+.imglogo {
+  width: 60%;
+  height: 20%;
+  padding: 32px 0;
+}
+.buscador {
+  padding: 0 20px;
+  width: 250px;
+  height: 40px;
+  border: 0px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  display: block;
+}
+.buscador::placeholder {
+  color: gray;
+  opacity: 0.5;
+}
+
+.btnLoginInicio {
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-color: #2a7ae4;
+  color: #2a7ae4;
+  background-color: transparent;
+  margin-right: 150px;
+}
+
+.btnLoginInicio:hover {
+  background-color: #4285de;
+  color: white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.lupa {
+  position: relative;
+  left: -40px;
+  padding: 10px;
+  color: black;
+
+  display: block;
+}
+.lupa:hover {
+  cursor: pointer;
+  color: black;
+  background: rgba(128, 128, 128, 0.145);
+  border-radius: 50%;
+  padding: 10px;
+  left: -40px;
+}
+
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+  .contBuscador {
+    margin-left: 0;
+    margin: 0 20px;
+  }
+  .imglogo {
     width: 200px;
-    height: 50px;
-    font-size: 1.2rem;
-    border-color: #2A7AE4;
-    color: #2A7AE4;
-    background-color: transparent;
-    margin-right: 150px;
-}
-
-.btnLoginInicio:hover{
-    background-color: #4285de;
-    color: white;
-    transition-duration: .5s;
-    cursor: pointer;
-}
-
-.lupa{
+    height: 100;
+    margin: 0;
+  }
+  .lupa {
     position: relative;
-    left: -40px;
+    left: -80px;
     padding: 10px;
     color: black;
-}
-.lupa:hover{
+    width: 100%;
+  }
+
+  .lupa:hover {
     cursor: pointer;
     color: black;
     background: rgba(128, 128, 128, 0.145);
     border-radius: 50%;
     padding: 10px;
-    left: -40px;
-    
+    left: -80px;
+  }
+  .btnLoginInicio {
+    margin-right: 20px;
+  }
+}
+/* /////////Celulares///////// */
+@media (max-width: 700px) {
+  .nav{
+    width: 30%;
+  }
+  .contBuscador{
+    margin: 0;
+    padding: 0;
+  }
+  .buscador {
+    display: none;
+  }
+  .lupa {
+    display: none;
+  }
+  .imglogo {
+    width: 200px;
+  }
+  /* ///////// */
+  .btnLoginInicio {
+    margin-right: 0;
+    width: 150px;
+    padding: 0;
+  }
 }
