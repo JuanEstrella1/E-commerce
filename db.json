@@ -187,6 +187,15 @@
       "contraseña": "asdasdasd",
       "telefono": "asdasd",
       "direccion": "asdasd"
+    },
+    {
+      "id": 6,
+      "nombre": "asdas",
+      "apellido": "asdasd",
+      "correo": "asdasd@asdasd",
+      "contraseña": "asdasd",
+      "telefono": "asdasdasd",
+      "direccion": "asdasdas"
     }
   ]
 }

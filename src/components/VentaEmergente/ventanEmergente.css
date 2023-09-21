@@ -37,3 +37,18 @@
     cursor: pointer;
     color: #2407dc;
 }
+
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+    .contenidoVentanaModal{
+        width: 60%;
+        height: 50vh;
+    }
+}
+/* /////////Celulares///////// */
+@media (max-width: 700px) {
+    .contenidoVentanaModal{
+        width: 70%;
+        height: 80vh;
+    }
+}

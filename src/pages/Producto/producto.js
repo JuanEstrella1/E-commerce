@@ -4,6 +4,8 @@ import FilaProductos from "../../components/ListProductos/filaProductos";
 import { buscar } from "../../apis/apis";
 import { useState, useEffect } from "react";
 import { useParams,useNavigate } from "react-router-dom";
+import {IoBookmarkOutline} from "react-icons/io5"
+import {AiOutlineShoppingCart} from "react-icons/ai"
 
 function Producto() {
   const [productos, setProductos] = useState({});
@@ -39,12 +41,12 @@ function Producto() {
           <p className="descripcionProducto">
             {descripcion}
           </p>
-          <div>
+          <div className="containerBtnCompras">
             <button className="btnCompras" onSubmit="">
-              Comprar
+            <AiOutlineShoppingCart className="carShop"/>
             </button>
             <button className="btnCompras" onSubmit="">
-              Agregar al carrito
+            <IoBookmarkOutline className="iconListaDeseos"/><p className="listaDeseos"> Lista de deseos</p>
             </button>
           </div>
         </div>

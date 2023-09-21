@@ -66,3 +66,22 @@ align-items: center;
     font-family: Raleway;
     color: red;
 }
+
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+    .containerLogin{
+        width: 40%;
+    }
+    .crearCuenta{
+        width: 40%;
+    }
+}
+/* /////////Celulares///////// */
+@media (max-width: 700px) {
+    .containerLogin{
+        width: 80%;
+    }
+    .crearCuenta{
+        width: 80%;
+    }
+}

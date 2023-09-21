@@ -40,3 +40,17 @@ section{
     cursor: pointer;
     
 }
+
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+    .containerNuevoProducto{
+        width: 80%;
+    }
+  }
+  /* /////////Celulares///////// */
+  @media (max-width: 700px) {
+    .containerNuevoProducto{
+        width: 100%;
+    }
+  }
+  
