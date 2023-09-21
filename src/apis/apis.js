@@ -103,21 +103,6 @@ export const crearUsuario = async (data) => {
 };
 
 
-///////7 conexión mongoDB
 
-/* const mongoose = require('mongoose');
-
-// Reemplaza con tu propia URL de conexión
-const url = 'mongodb+srv://jestrella9294:fSYvlmTEwo61q5Ql@ecommerce.ir7nejg.mongodb.net/?retryWrites=true&w=majority';
-
-mongoose.connect(url, {
-   useNewUrlParser: true, useUnifiedTopology: true
-   })
-  .then(() => {
-    console.log('Conexión a MongoDB exitosa');
-  })
-  .catch((error) => {
-    console.error('Error de conexión a MongoDB:', error);
-  });  */
 
 
