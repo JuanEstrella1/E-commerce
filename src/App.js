@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>        
         <Route path="/"  element={<Inicio />} />
-        <Route path="/totalProductos"  element={<TotalProductos  url={"/productos"}/>} />
+        <Route path="/totalProductos"  element={<TotalProductos  url={"/db.json"}/>} />
         <Route path="/nuevoProducto"  element={<NuevoProducto />} />
         <Route path="/login"  element={<Login />} />
         <Route path={`/productos/:id`}  element={<Producto />} />

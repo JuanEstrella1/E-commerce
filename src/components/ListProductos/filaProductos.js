@@ -13,7 +13,7 @@ function FilaProductos(props) {
   ///// comandos para invocar la base de datos dentro del archivo
 
   useEffect(() => {
-    buscar( "/productos",setProductos)
+    buscar( "/db.json",setProductos)
   }, [productos])
   //// Creacion de un nuevo array exclusivamente con los objetos que cumplen la condicion de la categoria
   var arrProductos = []

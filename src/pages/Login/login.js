@@ -24,7 +24,7 @@ function Login() {
   });
 
   useEffect(() => {
-    buscarUsuarios("/usuarios", setUsuarios);
+    buscarUsuarios("/db.json", setUsuarios);
   }, [usuarios]);
 
   const [showPassword, setShowPassword] = useState(false);

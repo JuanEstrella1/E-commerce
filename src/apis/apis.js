@@ -1,12 +1,12 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:5001/",
+  baseURL: "https://raw.githubusercontent.com/JuanEstrella1/DBs/main",
 });
 
 export const buscar = async (url, setData) => {
   const respuesta = await api.get(url);
-  setData(respuesta.data);
+  setData(respuesta.data.productos);
 };
 
 
@@ -83,7 +83,7 @@ export const actualizarProducto = async (id, data) => {
 
 export const buscarUsuarios = async (url, setData) => {
   const respuesta = await api.get(url);
-  setData(respuesta.dat);
+  setData(respuesta.data.usuarios);
 };
 
 
