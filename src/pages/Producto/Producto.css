@@ -78,7 +78,7 @@
 }
 
 /* /////////Tabletas///////// */
-@media (min-width: 700px) and (max-width: 1100px) {
+@media (min-width: 700px) and (max-width: 1200px) {
   .containerImgProducto {
     padding-right: 10px;
     width: 100%;

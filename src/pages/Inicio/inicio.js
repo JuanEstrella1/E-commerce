@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Fila from "../../components/ListProductos/filaProductos";
-import "./inicio.css";/* 
-import banner from "./toad.jpg"; */
+import "./inicio.css";
+/*import banner from "./toad.jpg"; */
 
 function Inicio() {
   return (

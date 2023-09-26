@@ -40,3 +40,24 @@ background-color: #f5f5f5;
     transition-duration: .5s;
     cursor: pointer;
 }
+
+/* /////////Tabletas///////// */
+@media (min-width: 700px) and (max-width: 1100px) {
+   
+
+}
+/* /////////Celulares///////// */
+@media (max-width: 700px) {
+    .img404{
+        width: 100%;
+        height: auto;
+    }
+    .containerInfo404{
+        top: -50px;
+        left: 10px;
+    }
+    .titulo404,.parrafo404{
+        line-height: 1;
+    }
+    
+    }

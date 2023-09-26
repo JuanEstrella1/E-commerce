@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 function Card(props) {
 
  const {nombre,precio,url,id,} = props 
+ 
 
   return (
     <section>

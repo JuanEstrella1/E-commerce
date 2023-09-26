@@ -9,6 +9,7 @@ export const buscar = async (url, setData) => {
   setData(respuesta.data);
 };
 
+
 ////////////////// Create // POST
 
 export const crearProductos = async (data) => {
@@ -82,7 +83,7 @@ export const actualizarProducto = async (id, data) => {
 
 export const buscarUsuarios = async (url, setData) => {
   const respuesta = await api.get(url);
-  setData(respuesta.data);
+  setData(respuesta.dat);
 };
 
 
@@ -101,6 +102,8 @@ export const crearUsuario = async (data) => {
     console.error('Error al crear el elemento:', error);
   }
 };
+
+//////////////////////
 
 
 

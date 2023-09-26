@@ -12,9 +12,11 @@ function TotalProductos({ url }) {
   const [productos, setProductos] = useState([]);
   const [mostrarActualizar, setMostrarActualizar] = useState(false);
 
-  useEffect(() => {
-    buscar(url, setProductos);
-  }, [productos,url]);
+// Llama a la función para establecer la conexión a MongoDB Atlas
+
+useEffect(() => {
+  buscar(url, setProductos);
+}, [productos,url]);
 
   return (
     <section className="sectionTotalProductos">
@@ -31,8 +33,8 @@ function TotalProductos({ url }) {
           />
         )}
         {productos.map((producto) => {
-          const { nombreProducto, precioProducto, urlImagen, id } = producto;
-          console.log(producto);
+          const { nombreProducto, precioProducto, urlImagen, id } = producto;/* 
+          console.log(producto); */
           return (
             <div>
               <div className="card" key={nombreProducto}>

@@ -13,24 +13,18 @@ function FilaProductos(props) {
   ///// comandos para invocar la base de datos dentro del archivo
 
   useEffect(() => {
-    buscar("/productos", setProductos)
+    buscar( "/productos",setProductos)
   }, [productos])
-
   //// Creacion de un nuevo array exclusivamente con los objetos que cumplen la condicion de la categoria
   var arrProductos = []
   for (let i = 0; i < productos.length; i++) {
-
     if (productos[i].categorias === categoria) {
       arrProductos.push(productos[i])
-
     }
   }
 
   //////// definicion de estilos para modificación de los sliders ajustando el tamaño de la pantalla
 
-  const esconder = {
-    overflow: 'hidden'
-  }
   let anchoPantalla = window.innerWidth;
   return (
     <section className="sectionFila">
@@ -41,7 +35,6 @@ function FilaProductos(props) {
         <div className="containerCards">
           {arrProductos.map((producto, i) => {
             const { id, nombreProducto, precioProducto, urlImagen } = producto;
-            console.log()
 
             return (
               <div key={id}>
